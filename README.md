@@ -1,4 +1,4 @@
-# FUTURE_FS_03
+# Business Pitch
 A sacred digital home for Vāgdēvi Saṅgīta Shālā — where a decade of Carnatic excellence meets the modern web. Explore ragas, swaras &amp; the guru's legacy.
 India's classical music traditions are among the most sophisticated art forms the world has ever known — yet in the digital age, many institutions carrying these traditions remain invisible online. Vāgdēvi Saṅgīta Shālā, a reputed Carnatic music school with over a decade of excellence in Karnataka, deserves a digital presence that truly reflects its legacy. That is exactly what this platform delivers.
 This website is not merely a brochure on the internet. It is a fully immersive cultural experience designed to educate, inspire, and convert. From the moment a visitor lands on the page, they are drawn into the world of Carnatic music — through an introduction to the art form's ancient roots, the legendary Musical Trinity, and the foundational teachings of Purandaradasa, the Pitāmaha of Carnatic music. This positions the school not just as a place to learn music, but as a gateway to an entire civilizational heritage.
