@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vāgdēvi Saṅgīta Shālā</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<nav id="navbar">
+  <div class="nav-logo">Vāgdēvi Saṅgīta Shālā</div>
+  <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#carnatic">Carnatic</a></li>
+    <li><a href="#swaras">Swaras</a></li>
+    <li><a href="#ragas">Ragas</a></li>
+    <li><a href="#school">School</a></li>
+    <li><a href="#guru">Guru</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════════════════════════════════
+     SECTION 1 — WELCOME / HERO
+══════════════════════════════════════ -->
+<section id="home" class="hero-section">
+  <!-- Desktop/Landscape BG — use a landscape image here -->
+  <img class="hero-bg hero-bg-desktop" src="images/msdesktop.jpg"alt="">
+  <!-- Phone/Portrait BG — use a portrait image here -->
+  <img class="hero-bg hero-bg-mobile" src="images/msfinalph.jpg" alt=""> 
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="om-symbol">ॐ</div>
+    <h1 class="school-name">Vāgdēvi</h1>
+    <h2 class="school-sub">Saṅgīta Shālā</h2>
+    <div class="hero-divider">
+      <span class="divider-ornament">❧</span>
+      <span class="divider-line"></span>
+      <span class="divider-ornament">❦</span>
+    </div>
+    <p class="hero-tagline">Where every note is a prayer. Every rāga, a journey.</p>
+    <a href="#carnatic" class="scroll-cue">
+      <span>Explore</span>
+      <i class='bx bx-chevron-down'></i>
+    </a>
+  </div>
+  <div class="floating-notes">
+    <span>𝄞</span><span>𝅗𝅥</span><span>♩</span><span>♪</span><span>𝄞</span><span>♫</span>
+  </div>
+</section>
+
+
+<section id="carnatic" class="section carnatic-section">
+  <div class="section-inner">
+
+    <div class="section-header">
+      <span class="section-label">The Sacred Tradition</span>
+      <h2 class="section-title">Carnatic Music</h2>
+      <p class="section-intro">
+        Carnatic music is one of the two main subgenres of Indian classical music, rooted in the ancient civilizations of South India. It is a system deeply grounded in bhakti — devotion — where music becomes the bridge between the mortal and the divine. With intricate rāgas, precise tālas, and emotive swaras, Carnatic music is not merely heard; it is experienced as a spiritual offering.
+      </p>
+    </div>
+
+    <!-- Trinity -->
+    <div class="trinity-header">
+      <h3>The Musical Trinity — Mūvvar</h3>
+      <p>Three luminaries who shaped Carnatic music into its classical form, composing thousands of kritis in devotion to the divine.</p>
+    </div>
+    <div class="trinity-grid">
+      <div class="trinity-card">
+         <img src= "images/images.webp"alt="Thyagaraja"> 
+        <div class="trinity-img-placeholder"><i class='bx bx-music'></i></div>
+        <h4>Tyāgarāja</h4>
+        <span class="trinity-years">1767 – 1847</span>
+        <p>The greatest composer of Carnatic music, a devotee of Lord Rama who composed over 24,000 kritis. His Pancharatna Kritis remain immortal masterpieces of the tradition.</p>
+      </div>
+      <div class="trinity-card featured">
+        <img src="images/msd.webp" alt="Muthuswami Dikshitar">
+        <div class="trinity-img-placeholder"><i class='bx bx-music'></i></div>
+        <h4>Muthuswāmi Dīkshitar</h4>
+        <span class="trinity-years">1775 – 1835</span>
+        <p>A poet-composer of extraordinary depth, composing in Sanskrit and incorporating elements of Hindustani and Western music. His 72 Mēlakartta compositions are legendary.</p>
+      </div>
+      <div class="trinity-card">
+      <img src="images/ss.webp" alt="Syama Sastri">
+        <div class="trinity-img-placeholder"><i class='bx bx-music'></i></div>
+        <h4>Syāma Śāstri</h4>
+        <span class="trinity-years">1762 – 1827</span>
+        <p>The eldest of the trinity, a devoted worshipper of Goddess Kamakshi, known for the emotional depth and feminine grace in his compositions of swarajatis and kritis.</p>
+      </div>
+    </div>
+
+    <!-- Purandaradasa -->
+    <div class="pitamaha-block">
+      <div class="pitamaha-img-box">
+       <img src="images/pd.jfif" alt="Purandaradasa">
+        
+        <div class="pitamaha-img-placeholder"><i class='bx bx-star'></i></div>
+      </div>
+      <div class="pitamaha-info">
+        <span class="section-label">Pitāmaha of Carnatic Music</span>
+        <h3>Purandaradāsa</h3>
+        <span class="pitamaha-years">1484 – 1564</span>
+        <p>
+          Revered as the grandfather (Pitāmaha) of Carnatic music, Sri Purandaradasa systematized the teaching of Carnatic music through a curriculum that is still followed today. He composed the foundational exercises — Svaravalis, Alankaras, Gitas — that every student begins their journey with.
+        </p>
+        <p>
+          A saint-composer who gave up immense wealth for a life of devotion to Lord Vittala of Pandharpur, he composed over 475,000 compositions in Kannada and Sanskrit, of which around 1,000 survive. His Dasa sahitya enriched Carnatic music with a deeply human and devotional voice.
+        </p>
+        <div class="pitamaha-quote">
+          <i class='bx bxs-quote-alt-left'></i>
+          <em>"Music is the language of the soul. Through rāga, we speak to God."</em>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     SECTION 3 — SAPTA SWARAS
+══════════════════════════════════════ -->
+<section id="swaras" class="section swaras-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">The Seven Divine Notes</span>
+      <h2 class="section-title">Sapta Swarāḥ</h2>
+      <p class="section-intro">The seven fundamental notes (swaras) are the very soul of Carnatic music. Each swara carries its own character, emotion and colour — and together they form the infinite universe of rāgas.</p>
+    </div>
+
+    <div class="swaras-grid">
+
+      <div class="swara-block" style="--h:180px" data-swara="Sa">
+        <div class="swara-inner">
+          <div class="swara-front">
+            <span class="swara-solfege">Sa</span>
+            <span class="swara-name">Ṣaḍja</span>
+          </div>
+          <div class="swara-back">
+            <h5>Ṣaḍja</h5>
+            <ul>
+              <li>Ṣaḍja (Sa) — fixed note</li>
+              <li>No variants</li>
+              <li>The tonic — anchor of all ragas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="swara-block" style="--h:200px" data-swara="Re">
+        <div class="swara-inner">
+          <div class="swara-front">
+            <span class="swara-solfege">Re</span>
+            <span class="swara-name">Ṛṣabha</span>
+          </div>
+          <div class="swara-back">
+            <h5>Ṛṣabha Variants</h5>
+            <ul>
+              <li>R₁ — Śuddha Ṛṣabha</li>
+              <li>R₂ — Chatusśruti Ṛṣabha</li>
+              <li>R₃ — Ṣaṭśruti Ṛṣabha</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="swara-block" style="--h:220px" data-swara="Ga">
+        <div class="swara-inner">
+          <div class="swara-front">
+            <span class="swara-solfege">Ga</span>
+            <span class="swara-name">Gāndhāra</span>
+          </div>
+          <div class="swara-back">
+            <h5>Gāndhāra Variants</h5>
+            <ul>
+              <li>G₁ — Śuddha Gāndhāra</li>
+              <li>G₂ — Sādhāraṇa Gāndhāra</li>
+              <li>G₃ — Antara Gāndhāra</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="swara-block" style="--h:240px" data-swara="Ma">
+        <div class="swara-inner">
+          <div class="swara-front">
+            <span class="swara-solfege">Ma</span>
+            <span class="swara-name">Madhyama</span>
+          </div>
+          <div class="swara-back">
+            <h5>Madhyama Variants</h5>
+            <ul>
+              <li>M₁ — Śuddha Madhyama</li>
+              <li>M₂ — Prati Madhyama</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="swara-block" style="--h:220px" data-swara="Pa">
+        <div class="swara-inner">
+          <div class="swara-front">
+            <span class="swara-solfege">Pa</span>
+            <span class="swara-name">Pañcama</span>
+          </div>
+          <div class="swara-back">
+            <h5>Pañcama</h5>
+            <ul>
+              <li>Pañcama (Pa) — fixed note</li>
+              <li>No variants</li>
+              <li>The perfect fifth — pillar of harmony</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="swara-block" style="--h:200px" data-swara="Dha">
+        <div class="swara-inner">
+          <div class="swara-front">
+            <span class="swara-solfege">Dha</span>
+            <span class="swara-name">Dhaivata</span>
+          </div>
+          <div class="swara-back">
+            <h5>Dhaivata Variants</h5>
+            <ul>
+              <li>D₁ — Śuddha Dhaivata</li>
+              <li>D₂ — Chatusśruti Dhaivata</li>
+              <li>D₃ — Ṣaṭśruti Dhaivata</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="swara-block" style="--h:180px" data-swara="Ni">
+        <div class="swara-inner">
+          <div class="swara-front">
+            <span class="swara-solfege">Ni</span>
+            <span class="swara-name">Niṣāda</span>
+          </div>
+          <div class="swara-back">
+            <h5>Niṣāda Variants</h5>
+            <ul>
+              <li>N₁ — Śuddha Niṣāda</li>
+              <li>N₂ — Kaiśiki Niṣāda</li>
+              <li>N₃ — Kākali Niṣāda</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <p class="swaras-note">✦ Hover or tap each swara to reveal its variants</p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     SECTION 4 — 72 MELAKARTTA RAGAS
+══════════════════════════════════════ -->
+<section id="ragas" class="section ragas-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">The Complete System</span>
+      <h2 class="section-title">72 Mēḷakarta Rāgas</h2>
+      <p class="section-intro">The Mēḷakarta system is the parent scale system of Carnatic music. Each of the 72 rāgas is a parent scale (janaka rāga) from which hundreds of derived (janya) rāgas are born.</p>
+    </div>
+
+    <div class="ragas-grid" id="ragasGrid"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     SECTION 5 — ABOUT THE SCHOOL
+══════════════════════════════════════ -->
+<section id="school" class="section school-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">Our Legacy</span>
+      <h2 class="section-title">Vāgdēvi Saṅgīta Shālā</h2>
+    </div>
+    <div class="school-grid">
+      <div class="school-text">
+        <p class="school-lead">Established over a decade ago, Vāgdēvi Saṅgīta Shālā stands as a reputed institution devoted to the living tradition of Carnatic music in its most authentic form.</p>
+        <p>Rooted in the conviction that music is a sacred inheritance, our school has nurtured hundreds of students — from curious beginners to accomplished performers — guiding each one on a personal journey through the world of rāgas, tālas and bhāvas.</p>
+        <p>We believe deeply in preserving our cultural roots at a time when traditions risk being forgotten. Our curriculum, built on the foundational exercises of Purandaradasa, ensures that students learn not just notes — but the soul behind them.</p>
+        <p>Our goal is simple and profound: to cultivate prominent vocal singers who carry the torch of Carnatic music proudly into the future — making every family proud and every ancestor smile.</p>
+        <div class="school-stats">
+          <div class="stat">
+            <span class="stat-n">10+</span>
+            <span class="stat-l">Years of Excellence</span>
+          </div>
+          <div class="stat">
+            <span class="stat-n">200+</span>
+            <span class="stat-l">Students Nurtured</span>
+          </div>
+          <div class="stat">
+            <span class="stat-n">∞</span>
+            <span class="stat-l">Devotion to Music</span>
+          </div>
+        </div>
+      </div>
+      <div class="school-image-col">
+        <!-- ADD SCHOOL IMAGE: <img src="images/school.jpg" alt="School"> -->
+        <div class="school-img-placeholder">
+          <i class='bx bx-music'></i>
+          <span>Add School Image</span>
+        </div>
+        <div class="school-badge">
+          <span class="badge-text">Since</span>
+          <span class="badge-year">2014</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     SECTION 6 — GURU
+══════════════════════════════════════ -->
+<section id="guru" class="section guru-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">The Guiding Light</span>
+      <h2 class="section-title">Our Guru</h2>
+    </div>
+    <div class="guru-card">
+      <div class="guru-photo-box">
+        <!-- ADD GURU PHOTO: <img src="images/guru.jpg" alt="Vidhushi K R Shreelatha Vallesh"> -->
+        <div class="guru-photo-placeholder">
+          <i class='bx bx-user'></i>
+          <span>Guru's Photo</span>
+        </div>
+        <div class="guru-credentials">
+          <span>Vidwat</span>
+          <span>M. Music</span>
+        </div>
+      </div>
+      <div class="guru-bio">
+        <h3>Vidhushi K R Shreelatha Vallesh</h3>
+        <span class="guru-title">Vidwat · M. Music · Carnatic Vocalist</span>
+        <p>
+          Vidhushi K R Shreelatha Vallesh is a celebrated Carnatic vocalist whose artistry has earned her wide acclaim across Karnataka and beyond. Holding both the prestigious Vidwat qualification and a Master's degree in Music, her academic excellence is matched only by the depth of her musical expression.
+        </p>
+        <p>
+          She has been honoured by numerous distinguished organizations across Karnataka for her outstanding contributions to Carnatic music — both as a performer and as a dedicated teacher who has shaped the musical lives of hundreds of students.
+        </p>
+        <p>
+          A student of the great tradition, she brings to her teaching a rare combination of scholarly rigor and heartfelt devotion — ensuring that every student who learns under her guidance receives not just technical mastery, but an enduring love for the art form.
+        </p>
+        <div class="guru-awards">
+          <i class='bx bxs-award'></i>
+          <span>Recipient of multiple awards by leading cultural organizations of Karnataka</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     SECTION 7 — GALLERY
+══════════════════════════════════════ -->
+<section id="gallery" class="section gallery-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">Moments in Melody</span>
+      <h2 class="section-title">Gallery</h2>
+    </div>
+    <div class="gallery-grid">
+      <!-- ADD YOUR IMAGES BELOW — replace src="" with your image paths -->
+      <div class="gallery-item tall">
+        <img src="" alt="Gallery 1">
+        <div class="gallery-placeholder"><i class='bx bx-image'></i><span>Add Image</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="" alt="Gallery 2">
+        <div class="gallery-placeholder"><i class='bx bx-image'></i><span>Add Image</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="" alt="Gallery 3">
+        <div class="gallery-placeholder"><i class='bx bx-image'></i><span>Add Image</span></div>
+      </div>
+      <div class="gallery-item wide">
+        <img src="" alt="Gallery 4">
+        <div class="gallery-placeholder"><i class='bx bx-image'></i><span>Add Image</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="" alt="Gallery 5">
+        <div class="gallery-placeholder"><i class='bx bx-image'></i><span>Add Image</span></div>
+      </div>
+      <div class="gallery-item tall">
+        <img src="" alt="Gallery 6">
+        <div class="gallery-placeholder"><i class='bx bx-image'></i><span>Add Image</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════
+     SECTION 8 — CONTACT
+══════════════════════════════════════ -->
+<section id="contact" class="section contact-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">Begin Your Journey</span>
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-intro">Reach out to join Vāgdēvi Saṅgīta Shālā and let music transform your life.</p>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Get In Touch</h3>
+        <div class="contact-item">
+          <i class='bx bx-map'></i>
+          <!-- ADD YOUR ADDRESS -->
+          <span>Your School Address, City, Karnataka</span>
+        </div>
+        <div class="contact-item">
+          <i class='bx bx-phone'></i>
+          <!-- ADD YOUR PHONE -->
+          <span>+91 XXXXX XXXXX</span>
+        </div>
+        <div class="contact-item">
+          <i class='bx bx-envelope'></i>
+          <!-- ADD YOUR EMAIL -->
+          <span>youremail@example.com</span>
+        </div>
+        <div class="contact-item">
+          <i class='bx bx-time'></i>
+          <span>Classes: Mon – Sat, 6:00 AM – 8:00 PM</span>
+        </div>
+      </div>
+      <!--
+        WEB3FORMS CONTACT — Replace access_key with your own from web3forms.com
+      -->
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+        <input type="hidden" name="subject" value="Enquiry — Vāgdēvi Saṅgīta Shālā">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <input type="tel" name="phone" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+          <select name="interest">
+            <option value="" disabled selected>I am interested in...</option>
+            <option>Vocal Training (Beginner)</option>
+            <option>Vocal Training (Intermediate)</option>
+            <option>Advanced / Performance</option>
+            <option>Children's Programme</option>
+            <option>General Enquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn-gold">
+          <i class='bx bx-send'></i> Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-om">ॐ</div>
+  <p class="footer-name">Vāgdēvi Saṅgīta Shālā</p>
+  <p class="footer-copy">© 2025 · All Rights Reserved · Crafted with Devotion</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
